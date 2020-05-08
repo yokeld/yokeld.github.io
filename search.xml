@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>[Q&amp;A] Python 语言知识·其一</title>
+    <url>/2020/05/08/Q-A-Python-%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%C2%B7%E5%85%B6%E4%B8%80/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>[Q&amp;A] Python 语言知识·其二</title>
+    <url>/2020/05/08/Q-A-Python-%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%C2%B7%E5%85%B6%E4%BA%8C/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Python后端面试相关问题整理</title>
+    <url>/2020/05/08/Python%E5%90%8E%E7%AB%AF%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<blockquote>
+<p>本文将整理 Python后端面试相关的比较重要的问题， 并列出主要相关知识点， 作为回答问题时的思路参考。</p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="Part-1-Python-语言知识相关问题"><a href="#Part-1-Python-语言知识相关问题" class="headerlink" title="Part 1: Python 语言知识相关问题"></a>Part 1: Python 语言知识相关问题</h2><h4 id="本节内容梳理-python-编程语言相关的知识点，-主要包括语言特性和具体领域编程相关的问题（主要是-网络编程，-重要知识点为-socket-编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）"><a href="#本节内容梳理-python-编程语言相关的知识点，-主要包括语言特性和具体领域编程相关的问题（主要是-网络编程，-重要知识点为-socket-编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）" class="headerlink" title="本节内容梳理 python 编程语言相关的知识点， 主要包括语言特性和具体领域编程相关的问题（主要是 网络编程， 重要知识点为 socket 编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）"></a>本节内容梳理 python 编程语言相关的知识点， 主要包括语言特性和具体领域编程相关的问题（主要是 网络编程， 重要知识点为 socket 编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）</h4><h3 id="1-1-Python-语言相比其他语言的优点和缺点"><a href="#1-1-Python-语言相比其他语言的优点和缺点" class="headerlink" title="1.1 Python 语言相比其他语言的优点和缺点"></a>1.1 Python 语言相比其他语言的优点和缺点</h3><h3 id="1-2-什么是鸭子类型"><a href="#1-2-什么是鸭子类型" class="headerlink" title="1.2 什么是鸭子类型"></a>1.2 什么是鸭子类型</h3><h3 id="1-3-什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？"><a href="#1-3-什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？" class="headerlink" title="1.3 什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？"></a>1.3 什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？</h3><h2 id="Part-2-操作系统相关问题"><a href="#Part-2-操作系统相关问题" class="headerlink" title="Part 2: 操作系统相关问题"></a>Part 2: 操作系统相关问题</h2><h2 id="Part-3-数据库相关"><a href="#Part-3-数据库相关" class="headerlink" title="Part 3: 数据库相关"></a>Part 3: 数据库相关</h2><h2 id="Part-4-网络协议"><a href="#Part-4-网络协议" class="headerlink" title="Part 4: 网络协议"></a>Part 4: 网络协议</h2><h2 id="Part-5-系统设计"><a href="#Part-5-系统设计" class="headerlink" title="Part 5: 系统设计"></a>Part 5: 系统设计</h2>]]></content>
+      <categories>
+        <category>技术</category>
+        <category>面试</category>
+      </categories>
+      <tags>
+        <tag>面试</tag>
+        <tag>python</tag>
+        <tag>后端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[Q&amp;A] 操作系统知识·其一</title>
+    <url>/2020/05/08/Q-A-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86%C2%B7%E5%85%B6%E4%B8%80/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>技术</category>
+        <category>操作系统</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>[Q&amp;A] 网络协议</title>
+    <url>/2020/05/08/Q-A-%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/05/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h3 id="How-To-Write"><a href="#How-To-Write" class="headerlink" title="How To Write"></a>How To Write</h3><p>More info: <a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="noopener">Document</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>[数据库] 指南</title>
+    <url>/2020/05/08/%E6%95%B0%E6%8D%AE%E5%BA%93-%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>[数据结构和算法] 指南</title>
+    <url>/2020/05/08/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95-%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>面试问题整理</title>
+    <url>/2020/05/08/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<h4 id="1-python语言相比其他语言的优点和缺点"><a href="#1-python语言相比其他语言的优点和缺点" class="headerlink" title="1. python语言相比其他语言的优点和缺点"></a>1. python语言相比其他语言的优点和缺点</h4><p>编码结构风格： 去除花括号、分号等符号， 通过强制缩进来区分来标识代码块。这一点赞赏的人很多，排斥的人也很多， 当嵌套层级较深时， 代码段的排版可读性会下降；</p>
+<a id="more"></a>
+
+<p>强大的内建库： 使用内建库基本可以完成从web编程到GUI编程等各种领域的编程任务， 除了基本的数据结构以外， 还提供很多好用的高级数据结构， 如 deque 双端队列， heapq堆（可以用于构建最小堆， 解决TOPK问题）  等等；</p>
+<p>活跃的社区， 有很多优秀的开源项目提供了各个业务领域的框架、工具类库， 从GUI编程到web编程到科学计算等等，可以快速实现功能，     满足业务需求</p>
+<p>==&gt; </p>
+<blockquote>
+<p>开发效率高：Python的各个优点是相辅相成的。例如，Python语言因为有了丰富强大的类库，所以，Python的开发效率能够显著提高。相对于C、C++和Java等编译语言，Python开发者的效率提高了数倍。实现相同的功能，Python代码的文件往往只有C、C++和Java代码的1/5~1/3。虽然Python语言拥有很多吸引人的特性，但是，各大互联网公司广泛使用Python语言，很大程度上是因为Python语言开发效率高这个特点。开发效率高的语言，能够更好的满足互联网快速迭代的需求，因此，Python语言在互联网公司使用非常广泛。</p>
+<p>应用领域广泛：Python语言的另一大优点就是应用领域广泛，工程师可以使用Python做很多的事情。例如，Web开发、网络编程、自动化运维、Linux系统管理、数据分析、科学计算、人工智能、机器学习等等。Python语言介于脚本语言和系统语言之间，我们根据需要，既可以将它当做一门脚本语言来编写脚本，也可以将它当做一个系统语言来编写服务</p>
+</blockquote>
+<p>缺点： python做工程化开发对开发者的要求较高， 需要自主遵守开发约束， 不然会灵活的动态语言特性会带来负面的影响， 如代码的健壮性会较差等等。</p>
+<p>python的执行效率较差（但现在用pypy其实有很大的提升）</p>
+<p>异步生态不完善， 目前3.x是原生支持异步的， 但相关的库较少， 比较出名的是 tornado</p>
+<p>GIL的存在， 无法充分利用多核的特性（仅限 cython）</p>
+<p>由于大家都觉得 python 简单， 在公司里面纷纷使用， 但是项目上又缺乏完善的文档， 必要的开发约定和约束， 导致做出来的项目难以扩展和维护， 增加新的特性往往导致项目项目代码更加混乱。</p>
+<p>因为动态语言更加关注对象的属性和行为， 而不是对象的身份， 在函数和方法定义上并不对参数进行强制的类型检查， 这一做法使得在开发时， 很多时候并不需要对业务对象单独抽象， 而是可以使用内建字典、列表等数据结构来构造业务对象， 这就使得， 如果没有完善的文档， 会导致后期维护时不能马上识别对象含义以及所包含的属性和相应的处理方法。进一步， 在构建业务数据时， 如果数据源中有脏数据， 构建数据时未必会失败， 但是程序后续运行时可能会出现异常。所以， 使用 python 进行工程开发， 对文档、输入输出的处理有更高的要求。</p>
+<p>语言的优缺点离不开项目背景， 没有最好或者最坏的语言， 只有最合适的语言</p>
+<p>所以这道题结合工程场景来讲会比较恰当。</p>
+<table>
+<thead>
+<tr>
+<th>项目场景</th>
+<th>核心诉求</th>
+<th>语言选型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>原型开发验证</td>
+<td>开发速度</td>
+<td>python</td>
+</tr>
+<tr>
+<td>脚本开发</td>
+<td>便捷</td>
+<td>python</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="2-什么是鸭子类型"><a href="#2-什么是鸭子类型" class="headerlink" title="2. 什么是鸭子类型"></a>2. 什么是鸭子类型</h4><p>鸭子类型是动态语言中的一种涉及风格，注重对象的行为而非对象的类型， 一个对象能否作为函数、表达式的参数， 取决于其行为（是否具备调用方所要求的方法）而非类型归属。GO也有鸭子类型。</p>
+<h4 id="3-什么是猴子补丁技术？在什么场景下可以使用猴子补丁？有哪些案例？"><a href="#3-什么是猴子补丁技术？在什么场景下可以使用猴子补丁？有哪些案例？" class="headerlink" title="3. 什么是猴子补丁技术？在什么场景下可以使用猴子补丁？有哪些案例？"></a>3. 什么是猴子补丁技术？在什么场景下可以使用猴子补丁？有哪些案例？</h4><p>猴子补丁充分利用动态语言的特性。在运行时修改对象的属性和方法， gevent在这方面的运用较多。比如说程序早期开发时需求中只有狗这个对象， 狗有个叫的方法。但后来来了只猫， 而且只有一处会用到， 除了叫声和狗不一样以外， 其他属性没什么区别，这个时候可以在需要猫的地方， 通过初始化狗的实例， 然后用猴子补丁技术， 把叫声的方法替换掉。</p>
+<h4 id="4-什么是自省（内省）？有什么用处？"><a href="#4-什么是自省（内省）？有什么用处？" class="headerlink" title="4. 什么是自省（内省）？有什么用处？"></a>4. 什么是自省（内省）？有什么用处？</h4><p>在一些语言中也被称为反射， 简单来说就是对象检查， 就好像你走到外面， 有些时候会遇到警察检查身份证和做一些盘问， 来确定对象的一些身份特点， 是什么(isinstance)， 有哪些属性(hasattr)， 有哪些行为(hasattr)。</p>
+<p>python中同时有自省和反射的概念：</p>
+<p>自省只用于检查对象更具体地讲， 是类型检查， 而反射既可以检查对象， 又可以修改对象。</p>
+<blockquote>
+<p> <a href="https://www.bnmetrics.com/blog/introspection-reflection-in-python" target="_blank" rel="noopener">https://www.bnmetrics.com/blog/introspection-reflection-in-python</a> </p>
+</blockquote>
+<p>在java中， 反射机制是说， 在运行状态中， 对于任何一个类， 都能知道这个类的所有属性和方法，对于任何一个对象， 都能调用它的任何一个方法和属性，这种动态获取新的以及动态调用对象方法的功能就叫做反射。</p>
+<p>而java中也有自省的概念， 但是这个概念的范畴与python所指的自省范畴完全不同。</p>
+<p>python中自省的方法主要有以下几个：</p>
+<ul>
+<li><p>hasattr</p>
+</li>
+<li><p>getattr</p>
+</li>
+<li><p>setattr</p>
+</li>
+<li><p>delattr</p>
+</li>
+<li><p>dir</p>
+</li>
+<li><p>isinstance</p>
+</li>
+<li><p>type</p>
+</li>
+<li><p>callable</p>
+</li>
+<li><p>inspect提供的方法</p>
+</li>
+</ul>
+<h4 id="5-python中有哪些语法糖？有哪些常用的语法糖？"><a href="#5-python中有哪些语法糖？有哪些常用的语法糖？" class="headerlink" title="5. python中有哪些语法糖？有哪些常用的语法糖？"></a>5. python中有哪些语法糖？有哪些常用的语法糖？</h4><blockquote>
+<p>先明确概念， 然后从概念的多方位去阐述</p>
+<p>在计算机科学中，语法糖(syntactic sugar)是指编程语言中可以更容易的表达一个操作的语法，它可以使程序员更加容易去使用这门语言：操作可以变得更加清晰、方便，或者更加符合程序员的编程习惯。</p>
+<p>编程语言提供的对于某种代码逻辑的更加简洁的表达方式</p>
+<p>比如 索引切片， 运算符， 列表推导式，生成器推导式等等 </p>
+</blockquote>
+<h4 id="6-python3相比python2有哪些重要的变化？具体有什么影响？"><a href="#6-python3相比python2有哪些重要的变化？具体有什么影响？" class="headerlink" title="6. python3相比python2有哪些重要的变化？具体有什么影响？"></a>6. python3相比python2有哪些重要的变化？具体有什么影响？</h4><ol>
+<li>较重大的改变：<ol>
+<li>print 从语句变成函数</li>
+<li>编码问题， 3默认使用unicode， 取消了 unicode 对象， 3中的str就相当于2的unicode， 2中str是字节， 3中的字节是bytes</li>
+<li>除法变化， 3中除法返回浮点数</li>
+<li>类型注解（type hint）， 帮助ide实现类型检查（也只是作为提醒而已）</li>
+<li>优化super()方法， 方便直接调用父类函数</li>
+<li>高级解包操作： a, b, *res = range(10)</li>
+<li>增加 keyword only arguments 限定关键字参数</li>
+<li>chained exception, python3 中重新抛出异常不会丢失堆栈信息</li>
+</ol>
+</li>
+<li>新增特性：<ol>
+<li>yield from 链接子生成器  # TODO: 需要实践一下的</li>
+<li>asynico内置库， async/await 原生协程支持异步编程</li>
+<li>新的内置库 enum， mock， asyncio， ipaddress， concurrent.futures等  # TODO: 需要实践</li>
+<li>生成的 pyc 文件统一放到 <strong>pycache</strong></li>
+<li>性能优化等</li>
+</ol>
+</li>
+</ol>
+<h4 id="7-如何将python2的代码迁移到python3？"><a href="#7-如何将python2的代码迁移到python3？" class="headerlink" title="7. 如何将python2的代码迁移到python3？"></a>7. 如何将python2的代码迁移到python3？</h4><p>pass</p>
+<h4 id="8-为什么说函数是一等公民？"><a href="#8-为什么说函数是一等公民？" class="headerlink" title="8. 为什么说函数是一等公民？"></a>8. 为什么说函数是一等公民？</h4><p>pass</p>
+<h4 id="9-函数和方法的区别？"><a href="#9-函数和方法的区别？" class="headerlink" title="9. 函数和方法的区别？"></a>9. 函数和方法的区别？</h4><p>pass</p>
+<h4 id="10-函数的传参过程是怎么样的？实参跟形参有什么区别？"><a href="#10-函数的传参过程是怎么样的？实参跟形参有什么区别？" class="headerlink" title="10. 函数的传参过程是怎么样的？实参跟形参有什么区别？"></a>10. 函数的传参过程是怎么样的？实参跟形参有什么区别？</h4><p>pass</p>
+<h4 id="11-参数类型有哪些？"><a href="#11-参数类型有哪些？" class="headerlink" title="11. 参数类型有哪些？"></a>11. 参数类型有哪些？</h4><p>pass</p>
+<h4 id="12-传参时有哪些要注意的问题？"><a href="#12-传参时有哪些要注意的问题？" class="headerlink" title="12. 传参时有哪些要注意的问题？"></a>12. 传参时有哪些要注意的问题？</h4><p>pass</p>
+<h4 id="13-python中有哪些可变对象？哪些不可变对象？"><a href="#13-python中有哪些可变对象？哪些不可变对象？" class="headerlink" title="13. python中有哪些可变对象？哪些不可变对象？"></a>13. python中有哪些可变对象？哪些不可变对象？</h4><p>pass</p>
+<h4 id="14-生成器与迭代器有什么区别？"><a href="#14-生成器与迭代器有什么区别？" class="headerlink" title="14. 生成器与迭代器有什么区别？"></a>14. 生成器与迭代器有什么区别？</h4><p>pass</p>
+<h4 id="15-如何实现协程？"><a href="#15-如何实现协程？" class="headerlink" title="15. 如何实现协程？"></a>15. 如何实现协程？</h4><p>pass</p>
+<h4 id="16-python中如何进行异常处理？如何自定义一个异常类？"><a href="#16-python中如何进行异常处理？如何自定义一个异常类？" class="headerlink" title="16. python中如何进行异常处理？如何自定义一个异常类？"></a>16. python中如何进行异常处理？如何自定义一个异常类？</h4><p>pass</p>
+<h4 id="17-什么时候需要捕获异常？"><a href="#17-什么时候需要捕获异常？" class="headerlink" title="17. 什么时候需要捕获异常？"></a>17. 什么时候需要捕获异常？</h4><p>pass</p>
+<h4 id="18-什么是单元测试？python中如何进行单元测试？"><a href="#18-什么是单元测试？python中如何进行单元测试？" class="headerlink" title="18. 什么是单元测试？python中如何进行单元测试？"></a>18. 什么是单元测试？python中如何进行单元测试？</h4><p>pass</p>
+<h4 id="19-什么是浅拷贝？什么是深拷贝？-如何实现深拷贝？"><a href="#19-什么是浅拷贝？什么是深拷贝？-如何实现深拷贝？" class="headerlink" title="19. 什么是浅拷贝？什么是深拷贝？ 如何实现深拷贝？"></a>19. 什么是浅拷贝？什么是深拷贝？ 如何实现深拷贝？</h4><p>pass</p>
+<h4 id="20-python如何管理依赖？"><a href="#20-python如何管理依赖？" class="headerlink" title="20. python如何管理依赖？"></a>20. python如何管理依赖？</h4><p>pass</p>
+<h4 id="21-如何分析python代码的性能？如何优化python的性能？"><a href="#21-如何分析python代码的性能？如何优化python的性能？" class="headerlink" title="21. 如何分析python代码的性能？如何优化python的性能？"></a>21. 如何分析python代码的性能？如何优化python的性能？</h4><p>pass</p>
+<h4 id="22-什么是GIL？如何规避GIL的影响？"><a href="#22-什么是GIL？如何规避GIL的影响？" class="headerlink" title="22. 什么是GIL？如何规避GIL的影响？"></a>22. 什么是GIL？如何规避GIL的影响？</h4><p>pass</p>
+<h4 id="23-python有哪些内置数据结构？"><a href="#23-python有哪些内置数据结构？" class="headerlink" title="23. python有哪些内置数据结构？"></a>23. python有哪些内置数据结构？</h4><p>pass</p>
+<h4 id="24-列表和元组有什么区别？"><a href="#24-列表和元组有什么区别？" class="headerlink" title="24. 列表和元组有什么区别？"></a>24. 列表和元组有什么区别？</h4><p>pass</p>
+<h4 id="25-python的字典是如何实现的？"><a href="#25-python的字典是如何实现的？" class="headerlink" title="25. python的字典是如何实现的？"></a>25. python的字典是如何实现的？</h4><p>pass</p>
+<h4 id="26-什么是随机访问？"><a href="#26-什么是随机访问？" class="headerlink" title="26. 什么是随机访问？"></a>26. 什么是随机访问？</h4><p>pass</p>
+<h4 id="27-内置数据结构常用操作的时间复杂度？"><a href="#27-内置数据结构常用操作的时间复杂度？" class="headerlink" title="27. 内置数据结构常用操作的时间复杂度？"></a>27. 内置数据结构常用操作的时间复杂度？</h4><p>pass</p>
+<h4 id="28-进程、线程、协程的区别"><a href="#28-进程、线程、协程的区别" class="headerlink" title="28. 进程、线程、协程的区别"></a>28. 进程、线程、协程的区别</h4><p>进程：  资源</p>
+<p>线程：  活动单位</p>
+<p>进程就像校园会里的一个班级， 学校为每个班级在操场上划定了地方， 配给了物资， 而班上的每个同学就像线程， 在自己的班级里取用物资， 通常情况下没法拿到别的班级的物资。</p>
+<p>每个CPU核心， 只能在同一时刻运行一组指令， 意味着同一时刻， 一个核心上只有一个线程在执行。</p>
+<p>==&gt; 并行和并发的概念：</p>
+<p>并行： 多核CPU可以同时承载多个线程活动</p>
+<p>并发： 并发是与IO场景密切相关的概念。其中又分为同步、异步、阻塞、非阻塞这四个核心概念。</p>
+<p>操作系统一共有五种IO模型： 阻塞IO型， 非阻塞IO型， IO复用模型， 信号驱动IO模型和异步IO模型。</p>
+<p>而并发就是 <code>异步非阻塞</code> 状态下的一种形式，当程序执行操作 a 时，使 a 的 I/O 异步操作，这时程序去执行操作 b, 在外部看来，a 和 b 时同时被执行的，然而他们只运行在在一个线程当中。</p>
+<p>与线程、进程不同的是，协程并不是操作系统物理层面存在的一种程序。</p>
+<p>协程是程序级别的，由程序编写者自己操控整个协程的生命周期。这样就实现了类似操作系统操作多线程一样的效果，但是省下了现成的切换中造成的资源消耗。</p>
+<p>而通过程序来操纵协程，就造成了cpu 一直在运行，并且是多个协程一直在运行的假象，也就变成了并发。</p>
+<blockquote>
+<p>作者：咕咕咕爱学习链接：<a href="https://juejin.im/post/5e0ee7195188253abd7d2c54来源：掘金著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。" target="_blank" rel="noopener">https://juejin.im/post/5e0ee7195188253abd7d2c54来源：掘金著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</a></p>
+</blockquote>
+<h4 id="29-线程间通信"><a href="#29-线程间通信" class="headerlink" title="29. 线程间通信"></a>29. 线程间通信</h4><ul>
+<li>互斥量（锁）：通过互斥机制防止多个线程同时访问公共资源</li>
+<li>信号量： 控制同一时刻多个线程访问同一个资源</li>
+<li>事件： 通过通知的方式保持多个线程同步</li>
+</ul>
+<h4 id="30-进程间通信"><a href="#30-进程间通信" class="headerlink" title="30. 进程间通信"></a>30. 进程间通信</h4><ul>
+<li>管道/匿名管道/有名管道</li>
+<li>信号： Ctrl + c 产生 SIGINT 程序终止信号</li>
+<li>消息队列：</li>
+<li>共享内存</li>
+<li>信号量</li>
+<li>socket： 最常用的方式</li>
+</ul>
+<h4 id="31-linux的内存管理机制"><a href="#31-linux的内存管理机制" class="headerlink" title="31. linux的内存管理机制"></a>31. linux的内存管理机制</h4><p>pass</p>
+<h4 id="32-linux常用命令"><a href="#32-linux常用命令" class="headerlink" title="32. linux常用命令"></a>32. linux常用命令</h4><p>pass</p>
+<h4 id="33-什么是闭包？"><a href="#33-什么是闭包？" class="headerlink" title="33. 什么是闭包？"></a>33. 什么是闭包？</h4><p>pass</p>
+<h4 id="34-实现一个装饰器"><a href="#34-实现一个装饰器" class="headerlink" title="34. 实现一个装饰器"></a>34. 实现一个装饰器</h4><p>pass</p>
+<h4 id="35-实现一个装饰器工厂"><a href="#35-实现一个装饰器工厂" class="headerlink" title="35. 实现一个装饰器工厂"></a>35. 实现一个装饰器工厂</h4><p>pass</p>
+<h4 id="36-装饰器通常用来实现什么功能？"><a href="#36-装饰器通常用来实现什么功能？" class="headerlink" title="36. 装饰器通常用来实现什么功能？"></a>36. 装饰器通常用来实现什么功能？</h4><p>pass</p>
+<h4 id="37-工厂模式"><a href="#37-工厂模式" class="headerlink" title="37. 工厂模式"></a>37. 工厂模式</h4><p>pass</p>
+<h4 id="38-构造模式"><a href="#38-构造模式" class="headerlink" title="38. 构造模式"></a>38. 构造模式</h4><p>pass</p>
+<h4 id="39-原型模式"><a href="#39-原型模式" class="headerlink" title="39. 原型模式"></a>39. 原型模式</h4><p>pass</p>
+<h4 id="40-单例模式"><a href="#40-单例模式" class="headerlink" title="40. 单例模式"></a>40. 单例模式</h4><p>pass</p>
+<h4 id="41-装饰器模式"><a href="#41-装饰器模式" class="headerlink" title="41. 装饰器模式"></a>41. 装饰器模式</h4><p>pass</p>
+<h4 id="42-代理模式"><a href="#42-代理模式" class="headerlink" title="42. 代理模式"></a>42. 代理模式</h4><p>pass</p>
+<h4 id="43-适配器模式"><a href="#43-适配器模式" class="headerlink" title="43. 适配器模式"></a>43. 适配器模式</h4><p>pass</p>
+<h4 id="44-外观模式"><a href="#44-外观模式" class="headerlink" title="44. 外观模式"></a>44. 外观模式</h4><p>pass</p>
+<h4 id="45-享元模式"><a href="#45-享元模式" class="headerlink" title="45. 享元模式"></a>45. 享元模式</h4><p>pass</p>
+<h4 id="46-MVC模式"><a href="#46-MVC模式" class="headerlink" title="46. MVC模式"></a>46. MVC模式</h4><p>pass</p>
+<h4 id="47-惰性计算模式"><a href="#47-惰性计算模式" class="headerlink" title="47. 惰性计算模式"></a>47. 惰性计算模式</h4><p>pass</p>
+<h4 id="48-迭代器模式"><a href="#48-迭代器模式" class="headerlink" title="48. 迭代器模式"></a>48. 迭代器模式</h4><p>pass</p>
+<h4 id="49-观察者模式"><a href="#49-观察者模式" class="headerlink" title="49. 观察者模式"></a>49. 观察者模式</h4><p>pass</p>
+<h4 id="50-策略模式"><a href="#50-策略模式" class="headerlink" title="50. 策略模式"></a>50. 策略模式</h4><p>pass</p>
+<h4 id="51-python中有哪些高阶函数？什么叫高阶函数？"><a href="#51-python中有哪些高阶函数？什么叫高阶函数？" class="headerlink" title="51. python中有哪些高阶函数？什么叫高阶函数？"></a>51. python中有哪些高阶函数？什么叫高阶函数？</h4><p>pass</p>
+<h4 id="52-什么是面向对象？"><a href="#52-什么是面向对象？" class="headerlink" title="52. 什么是面向对象？"></a>52. 什么是面向对象？</h4><p>pass</p>
+<h4 id="53-面向对象有哪些特征？"><a href="#53-面向对象有哪些特征？" class="headerlink" title="53. 面向对象有哪些特征？"></a>53. 面向对象有哪些特征？</h4><p>pass</p>
+<h4 id="54-什么是元编程？有哪些案例？"><a href="#54-什么是元编程？有哪些案例？" class="headerlink" title="54. 什么是元编程？有哪些案例？"></a>54. 什么是元编程？有哪些案例？</h4><p>pass</p>
+<h4 id="55-什么是类元编程？"><a href="#55-什么是类元编程？" class="headerlink" title="55. 什么是类元编程？"></a>55. 什么是类元编程？</h4><p>pass</p>
+<h4 id="56-类是谁的对象？type是谁的对象？"><a href="#56-类是谁的对象？type是谁的对象？" class="headerlink" title="56. 类是谁的对象？type是谁的对象？"></a>56. 类是谁的对象？type是谁的对象？</h4><p>pass</p>
+<h4 id="57-python的垃圾回收机制"><a href="#57-python的垃圾回收机制" class="headerlink" title="57. python的垃圾回收机制"></a>57. python的垃圾回收机制</h4><p>pass</p>
+<h4 id="58-浏览器输入一个url中间经历的过程"><a href="#58-浏览器输入一个url中间经历的过程" class="headerlink" title="58. 浏览器输入一个url中间经历的过程"></a>58. 浏览器输入一个url中间经历的过程</h4><p> <img src="https://upload-images.jianshu.io/upload_images/2075673-3afda32a13a68c6b.png?imageMogr2/auto-orient/strip%7CimageView2/2/format/webp" alt="img"> </p>
+<p>涉及的过程、涉及的协议、每个协议的作用， 通常在建立完TCP连接这部分往下， 讲到HTTP报文的流转时，面试管不追问， 就没必要往下讲， 消息的流转在请求放这边， 从应用层往下， 消息经过五层网络模型不断被拆解和封装， 到了响应方那边， 自底向上不断解封还原， 送达服务器。</p>
+<p>DNS查询， TCP握手， HTTP请求，反向代理nginx， uwsgi/gunicorn， web app响应， TCP挥手</p>
+<ol>
+<li><p>要建立一个 tcp 通信， 就必须知道服务器进程在网络上的位置， 也就是IP+端口， 这是网络进程寻址的依据；</p>
+</li>
+<li><p>端口本身是URL组成的一部分， 因此浏览器的第一步是要根据域名拿到服务器的IP地址。</p>
+<p>【展开回答】解析DNS的过程：</p>
+<p>_&lt;既然是缓存， 那就会有过期时间&gt;_</p>
+<ol>
+<li>浏览器查找自己的DNS缓存， 如果有就直接返回（chrome DNS 缓存时间为1分钟）；</li>
+<li>操作系统查找自己的DNS缓存， 如果有就返回给浏览器（ OS缓存会参考DNS服务器响应的TTL值，但是不完全等于TTL值。 ）</li>
+<li>操作系统查找自己的本地host文件， 如果有就返回给浏览器；</li>
+<li>操作系统向本地域名服务器发起请求， 查询本地DNS缓存，如果有， 返回给OS，然后OS返回给浏览器；</li>
+<li>OS向root DNS发起请求得到顶级域名服务器的IP，然后root DNS向顶级域名服务器发起请求得到权威域名服务器的IP， 顶级域名服务器再向权威域名服务器发起请求得到目标域名的IP， 本地域名服务器将其返回给OS， 并且将该域名的解析IP缓存起来，OS将IP返回给浏览器， 并做缓存</li>
+</ol>
+<p>DNS协议也是属于应用层协议，因此有也存在客户端和服务端。</p>
+</li>
+<li><p>拿到IP后， 就可以向目标主机发起请求， 经过三次握手建立TCP连接；</p>
+<p>【展开回答】三次握手的细节，每一次握手， 谁向谁发了消息， 发送的消息是什么</p>
+<p>client ————— syn1 ————–&gt;  server</p>
+<p>client &lt;—- syn2, ack1=syn1+1 —– server</p>
+<p>client ————– ack2=syn2+1 —-&gt; server</p>
+</li>
+<li><p>发起HTTP请求</p>
+</li>
+<li><p>接收服务器响应</p>
+</li>
+<li><p>浏览器解析HTML， 获取静态资源</p>
+<p>【展开回答】这里可以牵扯到 HTTP 1.0 非持久连接 及 HTTP 1.1 持久性连接 下， 该步骤的区别</p>
+</li>
+<li><p>关闭TCP连接</p>
+</li>
+<li><p>浏览器渲染页面</p>
+</li>
+</ol>
+<h4 id="59-网络的分层模型"><a href="#59-网络的分层模型" class="headerlink" title="59. 网络的分层模型"></a>59. 网络的分层模型</h4><p>OSI标准网络模型是七层的， 从上到下依次是 应用层 -&gt; 表示层 -&gt; 会话层 -&gt; 传输层 -&gt; 网络层 -&gt; 数据链路层 -&gt; 物理层。</p>
+<h4 id="60-TCP的握手过程"><a href="#60-TCP的握手过程" class="headerlink" title="60. TCP的握手过程"></a>60. TCP的握手过程</h4><p>pass</p>
+<h4 id="61-TCP的挥手过程"><a href="#61-TCP的挥手过程" class="headerlink" title="61. TCP的挥手过程"></a>61. TCP的挥手过程</h4><p>pass</p>
+<h4 id="62-TCP-跟-UDP-的差别"><a href="#62-TCP-跟-UDP-的差别" class="headerlink" title="62. TCP 跟 UDP 的差别"></a>62. TCP 跟 UDP 的差别</h4><p>pass</p>
+<h4 id="63-HTTP请求由哪些部分组成？"><a href="#63-HTTP请求由哪些部分组成？" class="headerlink" title="63. HTTP请求由哪些部分组成？"></a>63. HTTP请求由哪些部分组成？</h4><p>pass</p>
+<p>状态行， 请求头， 消息主体</p>
+<h4 id="64-HTTP响应由哪些部分组成？"><a href="#64-HTTP响应由哪些部分组成？" class="headerlink" title="64. HTTP响应由哪些部分组成？"></a>64. HTTP响应由哪些部分组成？</h4><p>pass</p>
+<h4 id="65-常见的HTTP响应状态码"><a href="#65-常见的HTTP响应状态码" class="headerlink" title="65. 常见的HTTP响应状态码"></a>65. 常见的HTTP响应状态码</h4><blockquote>
+<p>200  301  302  400  403  500</p>
+</blockquote>
+<h4 id="66-什么是幂等方法，-哪些HTTP方法是幂等的？"><a href="#66-什么是幂等方法，-哪些HTTP方法是幂等的？" class="headerlink" title="66. 什么是幂等方法， 哪些HTTP方法是幂等的？"></a>66. 什么是幂等方法， 哪些HTTP方法是幂等的？</h4><blockquote>
+<p>对服务器有没有副作用</p>
+</blockquote>
+<h4 id="67-HTTP的长链接"><a href="#67-HTTP的长链接" class="headerlink" title="67. HTTP的长链接"></a>67. HTTP的长链接</h4><p>pass</p>
+<h4 id="68-GET-POST-PUT-DELETE"><a href="#68-GET-POST-PUT-DELETE" class="headerlink" title="68. GET/POST/PUT/DELETE"></a>68. GET/POST/PUT/DELETE</h4><p>pass</p>
+<h4 id="69-长链接时如何区分不同的请求？"><a href="#69-长链接时如何区分不同的请求？" class="headerlink" title="69. 长链接时如何区分不同的请求？"></a>69. 长链接时如何区分不同的请求？</h4><blockquote>
+<p>Content-Length | Transfer-Encoding</p>
+</blockquote>
+<h4 id="70-Cookie-和-Session-的异同"><a href="#70-Cookie-和-Session-的异同" class="headerlink" title="70. Cookie 和 Session 的异同"></a>70. Cookie 和 Session 的异同</h4><p>pass</p>
+<h4 id="71-TCP编程的原理"><a href="#71-TCP编程的原理" class="headerlink" title="71. TCP编程的原理"></a>71. TCP编程的原理</h4><p>pass</p>
+<h4 id="72-如何使用socket编程发送-HTTP-请求？"><a href="#72-如何使用socket编程发送-HTTP-请求？" class="headerlink" title="72. 如何使用socket编程发送 HTTP 请求？"></a>72. 如何使用socket编程发送 HTTP 请求？</h4><p>pass</p>
+<h4 id="73-阻塞-socket，-非阻塞-socket"><a href="#73-阻塞-socket，-非阻塞-socket" class="headerlink" title="73. 阻塞 socket， 非阻塞 socket"></a>73. 阻塞 socket， 非阻塞 socket</h4><blockquote>
+<p>HTTP建立在TCP基础之上</p>
+<p>HTTP是基于文本的协议</p>
+</blockquote>
+<h4 id="74-IO多路复用机制"><a href="#74-IO多路复用机制" class="headerlink" title="74. IO多路复用机制"></a>74. IO多路复用机制</h4><h4 id="75-五种IO模型分别是什么？对应的IO模型"><a href="#75-五种IO模型分别是什么？对应的IO模型" class="headerlink" title="75. 五种IO模型分别是什么？对应的IO模型"></a>75. 五种IO模型分别是什么？对应的IO模型</h4><blockquote>
+<p>Blocking IO</p>
+<p>Nonblocking IO</p>
+<p>IO multiplexing (IO多路复用)   框架常用 IO 多路复用来提高并发能力</p>
+<p>Signal Driven IO</p>
+<p>Asynchronous IO(异步IO)</p>
+</blockquote>
+<h4 id="76-如何提升服务器的并发能力"><a href="#76-如何提升服务器的并发能力" class="headerlink" title="76. 如何提升服务器的并发能力"></a>76. 如何提升服务器的并发能力</h4><blockquote>
+<p>多线程模型， 创建新的线程处理请i去</p>
+<p>多进程模型， 创建新的进程处理请求</p>
+<p>IO多路复用， 实现单进程同时处理多个SOCKET（同时监听多个socket）</p>
+</blockquote>
+<h4 id="77-什么是IO多路复用"><a href="#77-什么是IO多路复用" class="headerlink" title="77. 什么是IO多路复用"></a>77. 什么是IO多路复用</h4><blockquote>
+<p>操作系统提供的同时监听多个socket的机制（select，poll，  epoll）</p>
+</blockquote>
+<h4 id="78-select-poll-epoll的区别"><a href="#78-select-poll-epoll的区别" class="headerlink" title="78. select/poll/epoll的区别"></a>78. select/poll/epoll的区别</h4><blockquote>
+<p><img src="C:%5CUsers%5Carclv%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200411104747726.png" alt="image-20200411104747726"></p>
+</blockquote>
+<h4 id="79-python中实现IO多路复用"><a href="#79-python中实现IO多路复用" class="headerlink" title="79. python中实现IO多路复用"></a>79. python中实现IO多路复用</h4><blockquote>
+<p><img src="C:%5CUsers%5Carclv%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200411104901957.png" alt="image-20200411104901957"></p>
+</blockquote>
+<h4 id="80-python常用的并发网络库"><a href="#80-python常用的并发网络库" class="headerlink" title="80. python常用的并发网络库"></a>80. python常用的并发网络库</h4><blockquote>
+<p>tornado, gevent, asyncio</p>
+</blockquote>
+<h4 id="81-使用tornado构建微服务，-实现-restful-接口"><a href="#81-使用tornado构建微服务，-实现-restful-接口" class="headerlink" title="81. 使用tornado构建微服务， 实现 restful 接口"></a>81. 使用tornado构建微服务， 实现 restful 接口</h4><blockquote>
+<p>底层基于linux多路复用</p>
+<p>可以通过协程或者回调实现异步编程</p>
+<p>生态不完善， 响应的异步框架（ORM）缺失</p>
+</blockquote>
+<h4 id="82-gevent-的并发实现"><a href="#82-gevent-的并发实现" class="headerlink" title="82. gevent 的并发实现"></a>82. gevent 的并发实现</h4><blockquote>
+<p>基于轻量级“绿色线程（greenlet）” 实现并发</p>
+<p>gevent修改了内置的socket改为非阻塞</p>
+<p>gunicorn + gevent 部署作为 wsgi server</p>
+<p>《Gevent程序员指南》</p>
+</blockquote>
+<h4 id="83-mysql事务原理，-特性，-事务并发控制"><a href="#83-mysql事务原理，-特性，-事务并发控制" class="headerlink" title="83. mysql事务原理， 特性， 事务并发控制"></a>83. mysql事务原理， 特性， 事务并发控制</h4><blockquote>
+<p>事务 = Transaction</p>
+<p>事务是数据库并发控制的基本单位</p>
+<p>事务可以看作是一系列SQL语句的集合</p>
+<p>事务必须要么全部执行成功， 要么全部执行失败（回滚）</p>
+<p>转账操作是常见场景</p>
+<p>ACID是事务的四个基本特性</p>
+<p>原子性（Atomicity）： 一个事务中的所有操作全部完成或失败</p>
+<p>一致性（Consistency）：事务开始和结束之后数据完整性没有被破坏</p>
+<p>隔离性（Isolation）：允许多个事务同时对数据库修改和读写</p>
+<p>持久性（Durability）： 事务结束之后， 修改是永久的不会丢失</p>
+</blockquote>
+<h4 id="84-事务缺乏并发控制会长生哪些异常？"><a href="#84-事务缺乏并发控制会长生哪些异常？" class="headerlink" title="84. 事务缺乏并发控制会长生哪些异常？"></a>84. 事务缺乏并发控制会长生哪些异常？</h4><blockquote>
+<ol>
+<li>幻读（phantom read）： 一个事务第二次查出现第一次没有的结果（别的事务成功）</li>
+<li>非重复读（nonrepeatable read）：一个事务重复读两次得到不同的结果</li>
+<li>脏读（dirty read）：一个事务读取到另一个事务没有提交的修改</li>
+<li>丢失修改（lost update）：并发写入造成其中一些修改丢失</li>
+</ol>
+</blockquote>
+<h4 id="85-事务的四种隔离级别"><a href="#85-事务的四种隔离级别" class="headerlink" title="85. 事务的四种隔离级别"></a>85. 事务的四种隔离级别</h4><blockquote>
+<p>读未提交（read uncommitted）：别的事务可以读取到未提交改变</p>
+<p>读已提交（read committed）：只能读取已经提交的数据</p>
+<p>可重复读（repeatable read）：同一个事务先后查询结果一样（默认隔离级别）</p>
+<p>串行化（Serializable）：事务完全串行化的执行， 隔离级别最高，执行效率最低（事务执行的时候锁住， 直到一个事务结束才能执行另一个事务）</p>
+</blockquote>
+<h4 id="86-如何解决高并发场景下的插入重复"><a href="#86-如何解决高并发场景下的插入重复" class="headerlink" title="86. 如何解决高并发场景下的插入重复"></a>86. 如何解决高并发场景下的插入重复</h4><blockquote>
+<ol>
+<li>使用数据库的唯一索引（分库分表不适用）</li>
+<li>使用队列异步写入</li>
+<li>使用 redis 等实现分布式锁</li>
+</ol>
+</blockquote>
+<h4 id="87-什么是悲观锁"><a href="#87-什么是悲观锁" class="headerlink" title="87. 什么是悲观锁"></a>87. 什么是悲观锁</h4><blockquote>
+<p>假设操作时一定会有别的事务同时进行修改， 因此悲观锁时先获取锁再进行操作， 一锁二查三更新 select for update</p>
+</blockquote>
+<h4 id="88-什么是乐观锁"><a href="#88-什么是乐观锁" class="headerlink" title="88. 什么是乐观锁"></a>88. 什么是乐观锁</h4><blockquote>
+<p>假设操作时不会有别的事务同时进行修改， 因此乐观送先修改，更新时发现数据已经变了就回滚 check and set</p>
+<p>乐观锁一般通过版本号或者时间戳实现（检查）</p>
+</blockquote>
+<h4 id="89-乐观锁和悲观锁的选择"><a href="#89-乐观锁和悲观锁的选择" class="headerlink" title="89. 乐观锁和悲观锁的选择"></a>89. 乐观锁和悲观锁的选择</h4><blockquote>
+<p>需要更具响应速度、冲突频率、重试代价来判断使用哪一种</p>
+<p>给一些场景出来</p>
+</blockquote>
+<h4 id="90-mysql常用数据类型："><a href="#90-mysql常用数据类型：" class="headerlink" title="90. mysql常用数据类型："></a>90. mysql常用数据类型：</h4><blockquote>
+<p>-字符串</p>
+<p>CHAR  存定长字符串</p>
+<p>VARCHAR  存不定长字符换 0~65535个字符</p>
+<p>TINYTEXT  最长255个字符</p>
+<p>TEXT 最长65535个字符</p>
+<p>-数值（记住数值范围）</p>
+<p>-日期</p>
+</blockquote>
+<h4 id="91-Mysql数据库引擎"><a href="#91-Mysql数据库引擎" class="headerlink" title="91. Mysql数据库引擎"></a>91. Mysql数据库引擎</h4><blockquote>
+<p>InnoDB 和 MyISAM 的区别</p>
+<p>MyISAM 不支持事务</p>
+<p>InnoDB 支持事务</p>
+<p>MyISAM 不支持外键， InnoDB支持</p>
+<p>MyISAM只支持表锁， InnoDB支持行锁和表锁（并发粒度控制更细）</p>
+<p>MyISAM支持全文索引， InnoDB不支持全文索引</p>
+</blockquote>
+<h4 id="92-什么是索引"><a href="#92-什么是索引" class="headerlink" title="92. 什么是索引"></a>92. 什么是索引</h4><blockquote>
+<p>索引是数据表中一个或者多个列进行排序的数据结构</p>
+<p>索引能够大幅提升检索速度</p>
+<p>创建、更新索引本身会消耗时间和空间</p>
+</blockquote>
+<h4 id="93-mysql索引的数据结构"><a href="#93-mysql索引的数据结构" class="headerlink" title="93.mysql索引的数据结构"></a>93.mysql索引的数据结构</h4><blockquote>
+<p>B-Trees</p>
+<p>为什么是B树？涉及查找结构的进化史</p>
+<p>线性查找 &gt; 二分查找（要求有序结构， 插入慢） &gt; HASH（查询快， 占用空间， 不适合存储大规模数据）&gt; 二叉查找树（插入和查询很快， 不适合存储大规模数据， 复杂度退化）&gt; 平衡树（解决二叉查找树的退化问题， 结点非常多的时候树高依然很高）&gt; 多路查找树（结点过多树高不会特别深）&gt; 多路平衡查找树（无法实现范围查找） &gt; B+Tree</p>
+<p>B-TREES就是一个多路平衡查找树</p>
+<p>特点： </p>
+<p>每个节点最多 m 个孩子， 称为 m 阶或者度</p>
+<p>叶节点具有相同的深度</p>
+<p>节点中的数据 key 从左到右是递增的</p>
+<p>资源： Data Structure Visualizations</p>
+<p>Mysql使用B+TREE作为索引的结构</p>
+<p>B+TREE是B-TREES的变形</p>
+<p>只在叶子节点带有指向记录的指针（可以增加树的度）</p>
+<p>叶子节点通过指针相连（可以实现范围查找）</p>
+<p>阶数的确定跟磁盘块的大小有关（为了操作系统更好地读取和缓存数据）</p>
+</blockquote>
+<p><img src="C:%5CUsers%5Carclv%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200411173009851.png" alt="image-20200411173009851"></p>
+<h4 id="94-mysql的索引"><a href="#94-mysql的索引" class="headerlink" title="94. mysql的索引"></a>94. mysql的索引</h4><blockquote>
+<p>普通索引</p>
+<p>唯一索引</p>
+<p>多列索引</p>
+<p>主键索引（一个表只能有一个）</p>
+<p>全文索引</p>
+</blockquote>
+<h4 id="95-什么时候创建索引？有什么需要注意的？"><a href="#95-什么时候创建索引？有什么需要注意的？" class="headerlink" title="95. 什么时候创建索引？有什么需要注意的？"></a>95. 什么时候创建索引？有什么需要注意的？</h4><blockquote>
+<p>建表的时候需要更具查询需求来创建索引</p>
+<pre><code>- 经常用作查询条件的字段
+- 经常用作表连接的字段
+- 经常出现在 order by, group by 之后的字段</code></pre><p>最佳实践：</p>
+<pre><code>- 对非空字段 NOT NULL 创建索引，mysql很难对空值做查询优化
+- 区分度高， 离散度大， 作为索引的字段值尽量不要有大量相同的值
+- 索引的长度不要太长（比较时耗费之间）</code></pre></blockquote>
+<h4 id="96-索引什么时候失效"><a href="#96-索引什么时候失效" class="headerlink" title="96. 索引什么时候失效"></a>96. 索引什么时候失效</h4><blockquote>
+<p>记忆口诀： 模糊匹配， 类型隐转、最左匹配</p>
+<ol>
+<li>以 % 开头的 LIKE 语句， 模糊搜索</li>
+<li>出现类型隐式转换</li>
+<li>没有满足最左前缀原则</li>
+</ol>
+<p>都会导致key无法直接比较</p>
+</blockquote>
+<h4 id="97-什么是聚集索引，-什么是非聚集索引？"><a href="#97-什么是聚集索引，-什么是非聚集索引？" class="headerlink" title="97. 什么是聚集索引， 什么是非聚集索引？"></a>97. 什么是聚集索引， 什么是非聚集索引？</h4><blockquote>
+<p>聚集还是非聚集指的是 B+TREE叶节点存的是指针还是数据记录</p>
+<p>MyISAM索引和数据分离，使用的是非聚集索引</p>
+<p>InnoDB数据文件就是索引文件， 主键索引就是聚集索引</p>
+</blockquote>
+<h4 id="98-如何排查慢查询"><a href="#98-如何排查慢查询" class="headerlink" title="98. 如何排查慢查询"></a>98. 如何排查慢查询</h4><blockquote>
+<p>慢查询通常是缺少索引， 索引不合理或者业务代码导致</p>
+<p>slow_query_log_file 开启并且慢查询查询日志</p>
+<p>通过 explain 排查索引问题</p>
+<p>调整数据修改索引</p>
+<p>业务代码限制不合理访问（如分页查询）</p>
+</blockquote>
+<h4 id="99-什么是内连接、外连接、全连接"><a href="#99-什么是内连接、外连接、全连接" class="headerlink" title="99. 什么是内连接、外连接、全连接"></a>99. 什么是内连接、外连接、全连接</h4><blockquote>
+<p>内连接 INNER JOIN</p>
+<p>外连接 LEFT JOIN / RIGHT JOIN</p>
+<p>全连接 FULL JOIN</p>
+</blockquote>
+<h4 id="100-缓存的使用场景"><a href="#100-缓存的使用场景" class="headerlink" title="100. 缓存的使用场景"></a>100. 缓存的使用场景</h4><blockquote>
+<p>缓解关系数据库并发访问的压力： 热点数据</p>
+<p>减少响应时间：内存IO速度比磁盘快</p>
+<p>提升吞吐量：redis等内存数据库单机就可以支撑很大并发</p>
+</blockquote>
+<h4 id="101-redis和memcached的主要区别"><a href="#101-redis和memcached的主要区别" class="headerlink" title="101. redis和memcached的主要区别"></a>101. redis和memcached的主要区别</h4><blockquote>
+<p>redis 数据存储类型丰富</p>
+<p>网络IO模型不同， redis是IO多路复用</p>
+<p>redis有持久化支持</p>
+</blockquote>
+<p><img src="C:%5CUsers%5Carclv%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200411182758145.png" alt="image-20200411182758145"></p>
+<h4 id="102-请简述-redis-常用数据类型和使用场景"><a href="#102-请简述-redis-常用数据类型和使用场景" class="headerlink" title="102. 请简述 redis 常用数据类型和使用场景"></a>102. 请简述 redis 常用数据类型和使用场景</h4><blockquote>
+<p>string： 用来实现简单的KV键值对存储， 如计数器</p>
+<p>List(链表)：实现双向链表， 如用户的关注， 粉丝列表</p>
+<p>Hash（哈希表）：用来存储彼此相关信息的键值对(HSET key field value)</p>
+<p>Set（集合）： 存储不重复元素， 比如用户的关注者</p>
+<p>Sorted Set（有序集合）： 实时信息排行榜</p>
+<p>以下不常用：</p>
+<p>pipline</p>
+<p>发布订阅</p>
+</blockquote>
+<h4 id="103-redis数据类型的内置实现"><a href="#103-redis数据类型的内置实现" class="headerlink" title="103. redis数据类型的内置实现"></a>103. redis数据类型的内置实现</h4><blockquote>
+<p>String: 整数或者sds(simple dynamic string)</p>
+<p>List: ziplist（压缩链表，连续的内存)或者双端链表</p>
+<p>Hash：ziplist 或者 hashtable</p>
+<p>Set：intset 或者 hashtable</p>
+<p>SortedSet： skiplist 跳跃表</p>
+</blockquote>
+<h4 id="104-redis有哪些持久化方式"><a href="#104-redis有哪些持久化方式" class="headerlink" title="104. redis有哪些持久化方式"></a>104. redis有哪些持久化方式</h4><blockquote>
+<p>快照方式：把数据快照放在磁盘二进制文件中 dump.rdb</p>
+<p>AOF（Append Only File）: 每一个写命令追加到文件</p>
+</blockquote>
+<h4 id="105-什么是-redis-事务"><a href="#105-什么是-redis-事务" class="headerlink" title="105. 什么是 redis 事务"></a>105. 什么是 redis 事务</h4><blockquote>
+<p>将多个请求打包， 一次性， 按序执行多个命令的机制</p>
+<p>redis 通过 multi, exec, watch 等命令实现事务功能</p>
+</blockquote>
+<h4 id="106-redis如何实现分布式锁"><a href="#106-redis如何实现分布式锁" class="headerlink" title="106. redis如何实现分布式锁"></a>106. redis如何实现分布式锁</h4><blockquote>
+<p>使用 setnx 实现枷锁， 可以同时通过 expire 添加超时时间</p>
+<p>锁的 value 值可以使用一个随机的 uuid 或者特定的命名</p>
+<p>释放锁的时候，通过 uuid 判断是否是该锁， 是则执行 delete 释放锁</p>
+</blockquote>
+<h4 id="107-使用缓存的模式？"><a href="#107-使用缓存的模式？" class="headerlink" title="107. 使用缓存的模式？"></a>107. 使用缓存的模式？</h4><blockquote>
+<p>常用的缓存使用模式：</p>
+<p>Cache Aside： 同时更新缓存和数据库（常用）</p>
+<p>Reaghd / Write Through： 先更新缓存， 缓存负责同步更新数据库</p>
+<p>Write Behind Caching：先更新缓存， 缓存定期异步更新数据库</p>
+</blockquote>
+<p>选择使用模式的底层逻辑：数据库和缓存之间的数据一致性问题</p>
+<p>模式1： 先更新数据库后更新缓存，当存在并发的写操作时， 操作可能导致缓存读取的是脏数据；解决： 先更新数据库， 然后删除缓存，下次读的时候重建缓存</p>
+<h4 id="108-什么是缓存穿透"><a href="#108-什么是缓存穿透" class="headerlink" title="108. 什么是缓存穿透"></a>108. 什么是缓存穿透</h4><blockquote>
+<p>大量查询不到的数据的请求落到后端数据库， 数据库压力增大</p>
+<p>由于大量缓存查不到就去数据库取， 数据库也没有要查的数据</p>
+<p>解决： 对没查到返回为None的数据也缓存；插入数据时删除相应缓存， 或者设置较短的超时时间</p>
+</blockquote>
+<h4 id="109-什么是缓存击穿？"><a href="#109-什么是缓存击穿？" class="headerlink" title="109. 什么是缓存击穿？"></a>109. 什么是缓存击穿？</h4><blockquote>
+<p>某些非常热点的数据 key 过期， 大量请求打到后端数据库</p>
+<p>由于热点数据key失效导致</p>
+<p>解决： 分布式锁；异步后台更新， 后台任务争对过期的key自动刷新</p>
+</blockquote>
+<h4 id="110-什么是缓存雪崩"><a href="#110-什么是缓存雪崩" class="headerlink" title="110. 什么是缓存雪崩"></a>110. 什么是缓存雪崩</h4><blockquote>
+<p>缓存不可用或者大量缓存key同时失效， 大量请求直接打到数据库</p>
+<p>解决：多级缓存， 不同级别的key设置不同的超时时间；随机超时， key的超时时间随机设置， 防止同时超时</p>
+<p>架构层面解决： 提升系统可用性， 监控、报警完善</p>
+</blockquote>
+<h4 id="111-为什么mysql数据库的主键使用自增的整数比较好，-使用uuid可以吗，-如果是分布式系统下怎么生成数据库的自增id？"><a href="#111-为什么mysql数据库的主键使用自增的整数比较好，-使用uuid可以吗，-如果是分布式系统下怎么生成数据库的自增id？" class="headerlink" title="111. 为什么mysql数据库的主键使用自增的整数比较好， 使用uuid可以吗， 如果是分布式系统下怎么生成数据库的自增id？"></a>111. 为什么mysql数据库的主键使用自增的整数比较好， 使用uuid可以吗， 如果是分布式系统下怎么生成数据库的自增id？</h4><blockquote>
+<p>b+tree工作原理推导出来的</p>
+</blockquote>
+<h4 id="112-基于-redis-便携代码实现一个简单的分布式锁"><a href="#112-基于-redis-便携代码实现一个简单的分布式锁" class="headerlink" title="112. 基于 redis 便携代码实现一个简单的分布式锁"></a>112. 基于 redis 便携代码实现一个简单的分布式锁</h4><blockquote>
+<p>要求： 支持超时时间参数</p>
+<p>如果 redis 单个节点宕机了， 如何处理， 还有其他业界的方案实现分布式锁吗</p>
+</blockquote>
+<h4 id="113-什么是WSGI，为什么需要WSGI"><a href="#113-什么是WSGI，为什么需要WSGI" class="headerlink" title="113. 什么是WSGI，为什么需要WSGI"></a>113. 什么是WSGI，为什么需要WSGI</h4><blockquote>
+<p>Web Server Gateway Interface，描述了 web server 如何与 web 框架 交互， web框架如何处理请求</p>
+<p>为了让任意的web 框架应用能够部署在任意 web 服务器上</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">application</span><span class="params">(environ, start_response)</span></span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="114-Django-vs-Flask-vs-Tornado"><a href="#114-Django-vs-Flask-vs-Tornado" class="headerlink" title="114. Django vs Flask vs Tornado"></a>114. Django vs Flask vs Tornado</h4><blockquote>
+<p>Django 大而全， 内置 ORM ， Admin 等组件， 第三方插件较多</p>
+<p>Flask: 微框架， 插件机制， 比较灵活， 过于灵活就导致代码结构太自由， 不利于工程维护</p>
+<p>Tornado：异步支持的为框架和异步网络库，生态不完善</p>
+</blockquote>
+<h4 id="115-什么是MVC"><a href="#115-什么是MVC" class="headerlink" title="115. 什么是MVC"></a>115. 什么是MVC</h4><blockquote>
+<p>model, view, controller， 解耦数据、展示和操作</p>
+<p>model ==&gt; ORM（Object Relational Mapping） 对象关系映射， 用于实现业务对象与数据表中的字段映射， 常用的 ORM 库有： sqlalchemy， django ORM, Peewee</p>
+<p>view ==&gt;  </p>
+<p>controller： 接收请求参数调用模型和视图完成请求</p>
+<p><img src="C:%5CUsers%5Carclv%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200412152404326.png" alt="image-20200412152404326"></p>
+</blockquote>
+<h4 id="116-为什么要使用ORM"><a href="#116-为什么要使用ORM" class="headerlink" title="116. 为什么要使用ORM"></a>116. 为什么要使用ORM</h4><blockquote>
+<p>更加面向对象， 代码量更少， 灵活性高， 提升开发效率</p>
+</blockquote>
+<h4 id="117-常见的web安全问题有哪些"><a href="#117-常见的web安全问题有哪些" class="headerlink" title="117. 常见的web安全问题有哪些"></a>117. 常见的web安全问题有哪些</h4><blockquote>
+<p>sql注入, xss（跨站脚本攻击）, csrf（跨站请求伪造）</p>
+</blockquote>
+<h4 id="118-sql注入的原理，-如何防范"><a href="#118-sql注入的原理，-如何防范" class="headerlink" title="118. sql注入的原理， 如何防范"></a>118. sql注入的原理， 如何防范</h4><blockquote>
+<p>通过构造特殊的输入参数传入web应用， 导致后端执行了恶意sql</p>
+<p>有哪些恶意sql呢：</p>
+<ol>
+<li>利用sql ‘–’ 表示注释的语法让部分sql语句失效</li>
+</ol>
+<p>容易造成sql注入隐患的编码方式： 对不受信任的输入没有进行输入过滤， 直接动态拼接sql</p>
+<p>防范：</p>
+<ol>
+<li>通过sqlmap， SQLninja等工具检测网站的sql注入漏洞</li>
+<li>永远不要相信用户的任何输入<ol>
+<li>对输入参数做好检查（类型和范围）；过滤和转义特殊字符</li>
+<li>不要直接拼接sql， 使用ORM可以大大降低sql注入风险</li>
+<li>数据库层做好权限管理配置； 不要明文存储敏感信息</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<h4 id="119-XSS攻击的原理，-如何防范"><a href="#119-XSS攻击的原理，-如何防范" class="headerlink" title="119. XSS攻击的原理， 如何防范"></a>119. XSS攻击的原理， 如何防范</h4><blockquote>
+<p>恶意用户将代码植入到提供给其他用户使用的页面中， 未经转义的恶意代码输出到其他用户的浏览器并被执行</p>
+<p>用户浏览页面的时候嵌入页面中的脚本会被执行， 攻击用户（比如获取cookie）</p>
+<p>主要分为两类： 反射型（非持久型）， 存储型（持久型）</p>
+<p>像评论区容易有这种问题</p>
+<p>危害：</p>
+</blockquote>
+<h4 id="120-CSRF"><a href="#120-CSRF" class="headerlink" title="120. CSRF"></a>120. CSRF</h4><h4 id="121-什么是前后端分离，有哪些优点？"><a href="#121-什么是前后端分离，有哪些优点？" class="headerlink" title="121. 什么是前后端分离，有哪些优点？"></a>121. 什么是前后端分离，有哪些优点？</h4><blockquote>
+<p>后端只负责提供数据结构， 不再渲染模板， 前端获取数据并呈现</p>
+<p>优点：</p>
+<ol>
+<li>前后端解耦， 接口复用（前端和客户端公用接口）， 减少开发量</li>
+<li>各司其职， 前后端同步开发， 提供工作效率， 定义好接口规范</li>
+<li>有利于调试、测试和运维部署</li>
+</ol>
+<p>缺点：</p>
+<p>不利于页面seo的优化</p>
+</blockquote>
+<h4 id="122-什么是restful？"><a href="#122-什么是restful？" class="headerlink" title="122. 什么是restful？"></a>122. 什么是restful？</h4><blockquote>
+<p>restful = 表现层状态转移， 由HTTP协议的主要设计者 roy fielding 提出</p>
+<p>包含概念: 资源 Resources、 表现层 Representation、状态转化 State Transfer</p>
+<p>是一种以资源为中心的web软件架构风格， 可以用 Ajax 和 Restful web服务构建应用</p>
+<p>资源： 使用 URI 指向的一个实体</p>
+<p>表现层： 资源的表现形式， 比如图片、HTML文本、媒体格式等【或者说文本和二进制】</p>
+<p>状态转化： GET/POST/PUT/DELETE HTTP 动词来操作资源， 实现资源状态的改变</p>
+</blockquote>
+<h4 id="123-Restful的准则"><a href="#123-Restful的准则" class="headerlink" title="123. Restful的准则"></a>123. Restful的准则</h4><blockquote>
+<p>设计概念和准则</p>
+<ol>
+<li>所有事物抽象为资源（resource）， 资源对应唯一的标识（identifier）</li>
+<li>资源通过接口进行操作实现状态转移， 操作本身是无状态的</li>
+<li>对资源的操作不会改变资源的标识（如果执行删除操作呢？）</li>
+</ol>
+</blockquote>
+<h4 id="124-什么是-Restful-API"><a href="#124-什么是-Restful-API" class="headerlink" title="124. 什么是 Restful API"></a>124. 什么是 Restful API</h4><blockquote>
+<ol>
+<li>通过 HTTP GET/POST/PUT/DELETE 实现资源的获取/新建/更新/删除，将资源状态转移跟数据库的增删改查结合到一起</li>
+<li>一般使用json格式返回数据</li>
+<li>一般web框架都有相应的插件支持restful API</li>
+</ol>
+</blockquote>
+<h4 id="125-如何设计-RESTFUL-API"><a href="#125-如何设计-RESTFUL-API" class="headerlink" title="125. 如何设计 RESTFUL API"></a>125. 如何设计 RESTFUL API</h4><blockquote>
+<p><img src="C:%5CUsers%5Carclv%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200412160725707.png" alt="image-20200412160725707"></p>
+</blockquote>
+<h4 id="126-什么是HTTPS"><a href="#126-什么是HTTPS" class="headerlink" title="126. 什么是HTTPS"></a>126. 什么是HTTPS</h4><blockquote>
+<ol>
+<li>HTTP 和 HTTPS 的区别</li>
+<li>什么是对称加密和非对称加密</li>
+<li>HTTPS 的通信过程是什么样的？</li>
+</ol>
+</blockquote>
+<h4 id="127-什么是系统设计"><a href="#127-什么是系统设计" class="headerlink" title="127. 什么是系统设计"></a>127. 什么是系统设计</h4><blockquote>
+<p>系统设计是一个定义系统架构、模块、接口和数据满足特定需求的过程</p>
+<p>如 设计一个短网址服务、评论服务、feed流系统、抢红包系统、秒杀系统</p>
+<p>微服务架构很多系统被按照业务拆分， 需要单独设计一个系统服务</p>
+<p>系统设计的难点：</p>
+<ol>
+<li>需要具备相关领域、算法的经验，由一定的架构设计能力， 如 feed流 推拉模型</li>
+<li>熟悉后端技术组件， 如消息队列， 缓存， 数据库，框架</li>
+<li>具备文档撰写， 流程图绘制， 架构设计，编码实现等综合能力</li>
+</ol>
+<p>怎么答：</p>
+<ol>
+<li>系统设计的三大要素：使用场景和限制条件；数据存储设计；算法模块设计</li>
+<li>围绕三个要素回答：<ol>
+<li>搞清楚场景和使用条件</li>
+<li>设计数据存储系统</li>
+<li>设计算法相关模块</li>
+</ol>
+</li>
+<li>如： 短网址<ol>
+<li>短网址服务给谁用？内部使用还是对外提供公共服务-&gt;</li>
+<li>用户估计由多少， 至少要能支撑多少用户？</li>
+<li>估算并发qps： 峰值qps是多少， 平均 qps是多少</li>
+<li>按需求设计数据表， 需要哪些字段， 使用什么类型， 数据增长规模</li>
+<li>按照上面的一个设计， 应该选择什么样的数据库， 是否需要持久化， 使用关系型还是nosql</li>
+<li>如何优化？如何设计索引， 是否需要使用缓存</li>
+<li>程序=算法+数据结构；系统=服务+系统</li>
+<li>需要哪些接口？接口如何设计？</li>
+<li>使用什么算法或者模型？</li>
+<li>不同实现方式之间的优劣对比， 如何取舍</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<h4 id="128-系统如何进行扩展？如用户增多之后，-qps上来了，现有设计不再满足使用需求了，-要如何对系统进行扩展（程序性能的扩展）？数据规模的扩展（数据存储多了，-现有容量不够了）"><a href="#128-系统如何进行扩展？如用户增多之后，-qps上来了，现有设计不再满足使用需求了，-要如何对系统进行扩展（程序性能的扩展）？数据规模的扩展（数据存储多了，-现有容量不够了）" class="headerlink" title="128. 系统如何进行扩展？如用户增多之后， qps上来了，现有设计不再满足使用需求了， 要如何对系统进行扩展（程序性能的扩展）？数据规模的扩展（数据存储多了， 现有容量不够了）"></a>128. 系统如何进行扩展？如用户增多之后， qps上来了，现有设计不再满足使用需求了， 要如何对系统进行扩展（程序性能的扩展）？数据规模的扩展（数据存储多了， 现有容量不够了）</h4><h4 id="129-故障如何处理？单点失败，-多点失败，雪崩问题"><a href="#129-故障如何处理？单点失败，-多点失败，雪崩问题" class="headerlink" title="129. 故障如何处理？单点失败， 多点失败，雪崩问题"></a>129. 故障如何处理？单点失败， 多点失败，雪崩问题</h4><h4 id="130-设计一个短网址系统"><a href="#130-设计一个短网址系统" class="headerlink" title="130. 设计一个短网址系统"></a>130. 设计一个短网址系统</h4><blockquote>
+<p>什么是短网址系统？包含哪些功能（接口）</p>
+<p>短网址系统的存储设计？需要存储哪些字段？</p>
+<p>如何设计算法生成短网址？</p>
+<p>TintUrl Service:   bitly.com</p>
+<p>把一个长网址转成短网址的服务</p>
+<p>转换网址的后缀不超过7位</p>
+<p>场景和限制：</p>
+<p>提供给公司其他业务服务</p>
+<p>功能： 一个长网址转成短网址并存储；根据短网址还原长url</p>
+<p>要求短网址的后缀不超过7位</p>
+<p>预估峰值插入请求数量级： 数百；查询请求数量级：数千</p>
+<p>数据存储设计：</p>
+<p>根据需求设计数据库存储设计： mysql即可满足</p>
+<p>id，短网址token， 原网址，创建时间</p>
+<p>创建索引： token</p>
+<p>算法实现设计：</p>
+<p>两个API： long2short_url, short2long_url</p>
+<p>long2short 的方法： 1. md5 长度过长； 2. 类似于62进制的数字， 将十进制ID转换成62进制的短网址 –&gt; 进制转换问题 也叫递增序列算法</p>
+<p>需要一个全局计数器来得到自增id（通过redis 的 incr维护）</p>
+<p>// python中相关的函数： divmod， 返回商和余数</p>
+</blockquote>
+<h4 id="131-设计一个秒杀系统"><a href="#131-设计一个秒杀系统" class="headerlink" title="131. 设计一个秒杀系统"></a>131. 设计一个秒杀系统</h4><blockquote>
+<p>难点： 如何应对高并发的用户请求</p>
+<p>秒杀系统涉及到哪些后端组件？（消息队列消峰， 如何实现削减库存？）</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>面试</tag>
+        <tag>python</tag>
+        <tag>后端</tag>
+      </tags>
+  </entry>
+</search>
