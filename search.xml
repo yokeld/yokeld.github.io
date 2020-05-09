@@ -8,7 +8,32 @@
 </blockquote>
 <a id="more"></a>
 
-<h2 id="Part-1-Python-语言知识相关问题"><a href="#Part-1-Python-语言知识相关问题" class="headerlink" title="Part 1: Python 语言知识相关问题"></a>Part 1: Python 语言知识相关问题</h2><h4 id="本节内容梳理-python-编程语言相关的知识点，-主要包括语言特性和具体领域编程相关的问题（主要是-网络编程，-重要知识点为-socket-编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）"><a href="#本节内容梳理-python-编程语言相关的知识点，-主要包括语言特性和具体领域编程相关的问题（主要是-网络编程，-重要知识点为-socket-编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）" class="headerlink" title="本节内容梳理 python 编程语言相关的知识点， 主要包括语言特性和具体领域编程相关的问题（主要是 网络编程， 重要知识点为 socket 编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）"></a>本节内容梳理 python 编程语言相关的知识点， 主要包括语言特性和具体领域编程相关的问题（主要是 网络编程， 重要知识点为 socket 编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）</h4><h3 id="1-1-Python-语言相比其他语言的优点和缺点"><a href="#1-1-Python-语言相比其他语言的优点和缺点" class="headerlink" title="1.1 Python 语言相比其他语言的优点和缺点"></a>1.1 Python 语言相比其他语言的优点和缺点</h3><h3 id="1-2-什么是鸭子类型"><a href="#1-2-什么是鸭子类型" class="headerlink" title="1.2 什么是鸭子类型"></a>1.2 什么是鸭子类型</h3><h3 id="1-3-什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？"><a href="#1-3-什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？" class="headerlink" title="1.3 什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？"></a>1.3 什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？</h3><h2 id="Part-2-操作系统相关问题"><a href="#Part-2-操作系统相关问题" class="headerlink" title="Part 2: 操作系统相关问题"></a>Part 2: 操作系统相关问题</h2><h2 id="Part-3-数据库相关"><a href="#Part-3-数据库相关" class="headerlink" title="Part 3: 数据库相关"></a>Part 3: 数据库相关</h2><h2 id="Part-4-网络协议"><a href="#Part-4-网络协议" class="headerlink" title="Part 4: 网络协议"></a>Part 4: 网络协议</h2><h2 id="Part-5-系统设计"><a href="#Part-5-系统设计" class="headerlink" title="Part 5: 系统设计"></a>Part 5: 系统设计</h2>]]></content>
+<h2 id="Part-1-Python-语言知识相关问题"><a href="#Part-1-Python-语言知识相关问题" class="headerlink" title="Part 1: Python 语言知识相关问题"></a>Part 1: Python 语言知识相关问题</h2><h4 id="本节内容梳理-python-编程语言相关的知识点，-主要包括语言特性和具体领域编程相关的问题（主要是-网络编程，-重要知识点为-socket-编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）"><a href="#本节内容梳理-python-编程语言相关的知识点，-主要包括语言特性和具体领域编程相关的问题（主要是-网络编程，-重要知识点为-socket-编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）" class="headerlink" title="本节内容梳理 python 编程语言相关的知识点， 主要包括语言特性和具体领域编程相关的问题（主要是 网络编程， 重要知识点为 socket 编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）"></a>本节内容梳理 python 编程语言相关的知识点， 主要包括语言特性和具体领域编程相关的问题（主要是 网络编程， 重要知识点为 socket 编程相关问题、并行并发相关的问题以及几个主流框架的理解问题）</h4><h3 id="1-1-Python-语言相比其他语言的优点和缺点"><a href="#1-1-Python-语言相比其他语言的优点和缺点" class="headerlink" title="1.1 Python 语言相比其他语言的优点和缺点"></a>1.1 Python 语言相比其他语言的优点和缺点</h3><table>
+<thead>
+<tr>
+<th>项目场景</th>
+<th>核心诉求</th>
+<th>语言选型</th>
+<th>选择理由</th>
+<th>其他语言</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>原型开发验证</td>
+<td>开发速度</td>
+<td>python</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>脚本开发</td>
+<td>开发速度， 方便调整</td>
+<td>python</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="1-2-什么是鸭子类型"><a href="#1-2-什么是鸭子类型" class="headerlink" title="1.2 什么是鸭子类型"></a>1.2 什么是鸭子类型</h3><h3 id="1-3-什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？"><a href="#1-3-什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？" class="headerlink" title="1.3 什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？"></a>1.3 什么是猴子补丁技术？什么场景下可以使用猴子补丁？有哪些案例？</h3><h2 id="Part-2-操作系统相关问题"><a href="#Part-2-操作系统相关问题" class="headerlink" title="Part 2: 操作系统相关问题"></a>Part 2: 操作系统相关问题</h2><h2 id="Part-3-数据库相关"><a href="#Part-3-数据库相关" class="headerlink" title="Part 3: 数据库相关"></a>Part 3: 数据库相关</h2><h2 id="Part-4-网络协议"><a href="#Part-4-网络协议" class="headerlink" title="Part 4: 网络协议"></a>Part 4: 网络协议</h2><h2 id="Part-5-系统设计"><a href="#Part-5-系统设计" class="headerlink" title="Part 5: 系统设计"></a>Part 5: 系统设计</h2>]]></content>
       <categories>
         <category>技术</category>
         <category>面试</category>
